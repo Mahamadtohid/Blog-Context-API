@@ -3,7 +3,13 @@
 function Header() {
 
     return(
-        <div>Technology Blogs</div>
+        <div className="border shadow-md py-2 w-full">
+            <header className="text-center ">
+                <h1 className=" text-xl font-bold uppercase text-white ">
+                    Technology Blogs
+                </h1>
+            </header>
+        </div>
     )
 }
 
