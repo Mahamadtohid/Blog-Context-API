@@ -15,7 +15,7 @@ function App() {
   },[])
 
   return (
-    <div className="App bg-gray-700 gap-y-1 justify-center align-center flex flex-col text-white h-full w-full items-center">
+    <div className="App gap-y-1 justify-center align-center flex flex-col h-full w-full items-center">
       <Header/>
       <Blogs/>
       <Pagination/>

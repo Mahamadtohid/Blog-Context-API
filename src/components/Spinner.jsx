@@ -2,7 +2,7 @@
 
 function Spinner(){
     return (
-        <div>
+        <div className="flex justify-center items-center h-screen">
 
             <div className="spinner"></div>
 
