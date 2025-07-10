@@ -8,7 +8,7 @@ function Blogs(){
     const {posts , loading} = useContext(AppContext);
 
     return(
-        <div className="w-11/12 max-w-[650px] py-8 flex flex-col gap-y-7 mt-[66px] mb-8">
+        <div className="w-11/12 max-w-[650px] py-8 flex flex-col items-center gap-y-7 mt-[66px] mb-8">
 
             {
                 loading ? (<Spinner/>) : (
@@ -28,7 +28,7 @@ function Blogs(){
 
                             <div className="flex gap-x-3">
                                 {post.tags.map((tag , index) => {
-                                    return <span key={index} className="to-blue-700 underline font-bold text-xs mt-[5px]">{`#${tag}`}</span>
+                                    return <span key={index} className="text-blue-900 underline font-bold text-xs mt-[5px]">{`#${tag}`}</span>
                             })}
                             </div>
                         </div>
